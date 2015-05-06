@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="KSI_App.KSI_App" android:versionCode="1" android:versionName="1.0">
+  <uses-sdk android:minSdkVersion="11" />
+  <application android:label="KSI Companion" android:icon="@drawable/icon" android:theme="@android:style/Theme.Holo.Light.DialogWhenLarge.NoActionBar" android:name="mono.android.app.Application" android:debuggable="true">
+    <activity android:label="Helpful Links" android:name="md5b0ee3b8bdf200eda51295bfd26107c78.Links" />
+    <activity android:label="KSI Divisions" android:name="md5b0ee3b8bdf200eda51295bfd26107c78.Div" />
+    <activity android:label="Code of Conduct" android:name="md5b0ee3b8bdf200eda51295bfd26107c78.CodeOfCondunct" />
+    <activity android:label="KSI Handbook" android:name="md5b0ee3b8bdf200eda51295bfd26107c78.Handbook" />
+    <activity android:label="Hall of Fame" android:name="md5b0ee3b8bdf200eda51295bfd26107c78.Hall" />
+    <activity android:label="Rank Structure" android:name="md5b0ee3b8bdf200eda51295bfd26107c78.Rank" />
+    <activity android:icon="@drawable/icon" android:label="KSI Companion" android:name="md5b0ee3b8bdf200eda51295bfd26107c78.MainActivity" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="KSI_App.KSI_App.mono.MonoRuntimeProvider.__mono_init__" />
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.KSI_App.KSI_App" />
+      </intent-filter>
+    </receiver>
+    <activity android:icon="@drawable/icon" android:label="KSI Companion" android:name="ksi_app.ksi_app.TrialSplashScreen" android:theme="@style/Mono.Android.Theme.Splash" android:noHistory="true">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+  </application>
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+</manifest>
