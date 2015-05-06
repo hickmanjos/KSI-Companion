@@ -1,0 +1,27 @@
+﻿<h2><b>LIST OF CURRENT KSI DIVISIONS</h2><br>
+
+<font color="#00BFFF">~Divine Reign</font><br><br>
+
+<font color="#666666">~Eternal Souls</font><br><br>
+
+<font color="#DC143C">~Dark Legions</font><br><br>
+
+<font color="#F08080">~Demonic Mayhem</font><br><br>
+
+<font color="#B78888">~Elite Forces</font><br><br>
+
+<font color="#EFBC32">~Explosive Ordnance</font><br><br>
+
+<font color="#32EF38">~Forced Induction</font><br><br>
+
+<font color="#8C3D2A">~Ground Zero</font><br><br>
+
+<font color="#FFDA5E">~Harmonic Destruction</font><br><br>
+
+<font color="#444438">~Immortal Outlaws</font><br><br>
+
+<font color="#3CB9D5">~Last Strike</font><br><br>
+
+<font color="#444444">~Legendary Warriors</font><br><br>
+
+<font color="#00D1FF">~Wicked Intent</font></b>
