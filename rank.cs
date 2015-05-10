@@ -62,7 +62,19 @@ namespace KSI_App
             TextView pvt_title = FindViewById<TextView>(Resource.Id.pvt_title);
             TextView rct_title = FindViewById<TextView>(Resource.Id.rct_title);
 
-            setup_html(sn_dir_text, "Ranks.txt");
+            setup_html(sn_dir_text, "Sn_Dir.txt");
+            setup_html(div_text, "Div.txt");
+            setup_html(co_div_text, "Co_Div.txt");
+            setup_html(founder_text, "Founder.txt");
+            setup_html(co_fo_text, "Co_Fo.txt");
+            setup_html(gen_text, "Gen.txt");
+            setup_html(cap_text, "Cap.txt");
+            setup_html(lt_text, "Lt.txt");
+            setup_html(st_sgt_text, "St_Sgt.txt");
+            setup_html(sgt_text, "Sgt.txt");
+            setup_html(cpl_text, "Cpl.txt");
+            setup_html(pvt_text, "Pvt.txt");
+            setup_html(rct_text, "Rct.txt");
 
             //Allows for scrolling on textViews
             sn_dir_text.MovementMethod = new Android.Text.Method.ScrollingMovementMethod();
@@ -105,7 +117,7 @@ namespace KSI_App
             text.TextFormatted = Html.FromHtml(rank_text);  //Formats string to output as html code
         }
 
-        private void rank_click(View title, View text)
+        private void rank_click(TextView title, TextView text)
         {
                 if (text.Visibility.Equals(ViewStates.Gone))
                 {
@@ -133,7 +145,7 @@ namespace KSI_App
                 }
         }
 
-        private ValueAnimator slideAnimator(int start, int end, View v)
+        private ValueAnimator slideAnimator(int start, int end, TextView v)
         {
 
             ValueAnimator animator = ValueAnimator.OfInt(start, end);
