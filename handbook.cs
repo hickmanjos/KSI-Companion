@@ -26,7 +26,7 @@ namespace KSI_App
 
             Button back_button = FindViewById<Button>(Resource.Id.back_button);
 
-            const string filePath = "handbook.txt";
+            const string filePath = "Handbook.txt";
             StreamReader streamReader = new StreamReader(Assets.Open(filePath));  //Taking .txt file into string
             string text = streamReader.ReadToEnd();
 
