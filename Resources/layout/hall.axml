@@ -41,9 +41,15 @@
             android:id="@+id/linearLayout2"
             android:background="@android:drawable/dialog_holo_dark_frame"
             android:layout_marginBottom="3.3dp" />
+        <ImageView
+            android:src="@drawable/halloffame"
+            android:layout_width="match_parent"
+            android:layout_height="379.1dp"
+            android:id="@+id/imageView1"
+            android:layout_marginTop="8.8dp" />
     </LinearLayout>
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="160.9dp"
         android:id="@+id/textView1" />
 </LinearLayout>

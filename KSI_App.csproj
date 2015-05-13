@@ -112,8 +112,11 @@
     <AndroidAsset Include="Assets\Founder.txt" />
     <AndroidAsset Include="Assets\Rct.txt" />
     <AndroidAsset Include="Assets\Cap.txt" />
-    <Content Include="Properties\AndroidManifest.xml" />
+    <Content Include="Properties\AndroidManifest.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <AndroidResource Include="Resources\drawable\KSI.png" />
+    <AndroidResource Include="Resources\drawable\Halloffame.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
