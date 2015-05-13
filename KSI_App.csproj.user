@@ -3,6 +3,6 @@
   <PropertyGroup>
     <AndroidDesignerPreferredDevice>Nexus 4</AndroidDesignerPreferredDevice>
     <SelectedDevice>Test_Device</SelectedDevice>
-    <AndroidDesignerPreferredTheme>Theme.Holo.Light.Dialog.NoActionBar</AndroidDesignerPreferredTheme>
+    <AndroidDesignerPreferredTheme>Theme.Holo.Light.DialogWhenLarge.NoActionBar</AndroidDesignerPreferredTheme>
   </PropertyGroup>
 </Project>

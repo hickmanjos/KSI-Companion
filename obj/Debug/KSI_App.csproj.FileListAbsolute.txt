@@ -18,3 +18,4 @@ C:\Users\Josh\Desktop\Xamrin\KSI_App\KSI_App\obj\Debug\res\drawable\ksi.png
 C:\Users\Josh\Desktop\Xamrin\KSI_App\KSI_App\obj\Debug\res\layout\handbook.xml
 C:\Users\Josh\Desktop\Xamrin\KSI_App\KSI_App\obj\Debug\res\layout\hall.xml
 C:\Users\Josh\Desktop\Xamrin\KSI_App\KSI_App\obj\Debug\res\layout\links.xml
+C:\Users\Josh\Desktop\Xamrin\KSI_App\KSI_App\obj\Debug\res\drawable\halloffame.png
